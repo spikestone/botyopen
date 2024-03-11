@@ -154,6 +154,9 @@ async def ping(ctx):
 @bot.command()
 async def hello(ctx):
     await ctx.send("hello")
+@bot.command()
+async def stopboty(ctx):
+   exit()
 
 
 # hier Auto rollenverteilung
