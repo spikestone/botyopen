@@ -9,7 +9,7 @@ import requests
 import key
 
 # Replace with the URL of the raw GitHub file
-url = "https://raw.githubusercontent.com/spikestone/boty/main/adsm.txt?token=GHSAT0AAAAAACOILAANVML7MPQIR2SJH4WSZPPFLHA"
+url = "https://raw.githubusercontent.com/spikestone/botyopen/main/adsm.txt"
 
 # Send a GET request
 response = requests.get(url)
